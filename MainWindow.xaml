@@ -3,6 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label Content="Registro usuario " HorizontalAlignment="Left" Margin="211,10,0,0" VerticalAlignment="Top"/>
+        <Button Content="Registrarse" HorizontalAlignment="Left" Margin="226,64,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Iniciar sesion" HorizontalAlignment="Left" Margin="226,112,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Aun no tiene cuenta para realizar &#xD;&#xA;compras  para proveedores " HorizontalAlignment="Left" Margin="10,267,0,0" VerticalAlignment="Top" FontWeight="Medium" FontStyle="Italic" FontSize="14" Width="234"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="387,214,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Margin="343,112,10,10" Source="provedor.jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="30,36,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Margin="10,10,357,142" Source="CiAMm0cNManKWBC5V3m8ZTl72eJkfbmt4t8yenImKBXEejxNn4ZJNZ2ss5Ku7Cxt.jpg" Stretch="Fill"/>
+
     </Grid>
 </Window>

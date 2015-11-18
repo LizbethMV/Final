@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace proyecto
 {
     /// <summary>
-    /// Interaction logic for Admin.xaml
+    /// Interaction logic for Proveedor.xaml
     /// </summary>
-    public partial class Admin : Window
+    public partial class Proveedor : Window
     {
-        public Admin()
+        public Proveedor()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

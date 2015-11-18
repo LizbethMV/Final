@@ -1,0 +1,18 @@
+﻿<Window x:Class="proyecto.Proveedor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Proveedor" Height="300" Width="300">
+    <Grid>
+        <Label Content="ID Proveedor" HorizontalAlignment="Left" Margin="26,25,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="38,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.339,-0.579"/>
+        <Label Content="Ciudad" HorizontalAlignment="Left" Margin="38,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.231,-0.914"/>
+        <Label Content="Direccion" HorizontalAlignment="Left" Margin="32,118,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="136,29,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="136,60,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="136,91,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="136,122,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Aceptar" HorizontalAlignment="Left" Margin="105,181,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Label Content="Registro proveedor" HorizontalAlignment="Left" Margin="73,-6,0,0" VerticalAlignment="Top" Width="125"/>
+
+    </Grid>
+</Window>

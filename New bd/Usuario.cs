@@ -7,15 +7,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace proyecto.New_bd
 {
-    public class inven
+    public class Usuario
     {
+        [Key]
+        public int Idusu { get; set; }
+        public string NombreUsuario { get; set; }
+        public float Contraseña { get; set; }
         
-        public int Id { get; set; }
-
-        public string NombreProducto { get; set; }
-
-        public string Categoria { get; set; }
-
-        public float precio { get; set; }
     }
 }

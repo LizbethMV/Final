@@ -7,12 +7,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace proyecto.New_bd
 {
-    public class Proveedor
+    public class Compras
     {
         [Key]
-        public int IDProveedor { get; set; }
+        public int IDcompras { get; set; }
+        public int Idproveedor { get; set; }
+        public int IdProducto { get; set; }
         public string Nombre { get; set; }
-        public string Ciudad { get; set; }
-        public float Direccion { get; set; }
+        public int Cantidad { get; set; }
     }
 }
