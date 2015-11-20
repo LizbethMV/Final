@@ -15,5 +15,6 @@ namespace proyecto.New_bd
         public float cantidad { get; set; }
         public int Fecha { get; set; }
         public string Descripcion { get; set; }
+        public virtual ICollection<inven> Productos { get; set; }
     }
 }

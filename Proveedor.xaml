@@ -11,8 +11,9 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="136,60,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="136,91,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="136,122,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Aceptar" HorizontalAlignment="Left" Margin="105,181,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
         <Label Content="Registro proveedor" HorizontalAlignment="Left" Margin="73,-6,0,0" VerticalAlignment="Top" Width="125"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="38,200,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="181,200,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

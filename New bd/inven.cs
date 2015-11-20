@@ -17,5 +17,6 @@ namespace proyecto.New_bd
         public string Categoria { get; set; }
 
         public float precio { get; set; }
+        public virtual ICollection<ventas> venta { get; set; }
     }
 }

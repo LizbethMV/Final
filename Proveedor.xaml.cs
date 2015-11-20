@@ -23,5 +23,10 @@ namespace proyecto
         {
             InitializeComponent();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainWindow ca = new MainWindow();
+        }
     }
 }
