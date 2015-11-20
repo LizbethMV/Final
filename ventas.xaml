@@ -7,16 +7,14 @@
         <Label Content="IdVentas" HorizontalAlignment="Left" Margin="24,31,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.637,-0.133"/>
         <Label Content="IDProducto" HorizontalAlignment="Left" Margin="24,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.203,-0.389"/>
         <Label Content="Cantidad" HorizontalAlignment="Left" Margin="27,88,0,0" VerticalAlignment="Top"/>
-        <Label Content="Fecha" HorizontalAlignment="Left" Margin="39,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.992,0.604"/>
-        <Label Content="Descripcion:" HorizontalAlignment="Left" Margin="27,145,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="23" Margin="114,31,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtpro" HorizontalAlignment="Left" Height="23" Margin="114,61,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="cantidad" HorizontalAlignment="Left" Height="23" Margin="114,92,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="des" HorizontalAlignment="Left" Height="23" Margin="114,151,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="114,120,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Enviar" HorizontalAlignment="Left" Margin="26,176,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
-        <DataGrid x:Name="grid" HorizontalAlignment="Left" Margin="142,179,0,0" VerticalAlignment="Top" Height="80" Width="140"/>
-        <Button Content="Consultar todo" HorizontalAlignment="Left" Margin="24,216,0,0" VerticalAlignment="Top" Width="87" Height="25" Click="Button_Click_2"/>
+        <Label Content="Descripcion:" HorizontalAlignment="Left" Margin="27,119,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="23" Margin="114,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtpro" HorizontalAlignment="Left" Height="23" Margin="114,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="cantidad" HorizontalAlignment="Left" Height="23" Margin="114,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="des" HorizontalAlignment="Left" Height="23" Margin="114,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Enviar" HorizontalAlignment="Left" Margin="26,159,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <DataGrid x:Name="grid" HorizontalAlignment="Left" Margin="27,189,0,0" VerticalAlignment="Top" Height="80" Width="243"/>
+        <Button Content="Consultar todo" HorizontalAlignment="Left" Margin="163,154,0,0" VerticalAlignment="Top" Width="87" Height="25" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

@@ -63,6 +63,14 @@
     <Compile Include="compras.xaml.cs">
       <DependentUpon>compras.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511201656050_correcion.cs" />
+    <Compile Include="Migrations\201511201656050_correcion.Designer.cs">
+      <DependentUpon>201511201656050_correcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511201719050_corr.cs" />
+    <Compile Include="Migrations\201511201719050_corr.Designer.cs">
+      <DependentUpon>201511201719050_corr.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos.xaml.cs">
       <DependentUpon>Productos.xaml</DependentUpon>
     </Compile>
@@ -128,6 +136,12 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201511181645509_clases.resx">
       <DependentUpon>201511181645509_clases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511201656050_correcion.resx">
+      <DependentUpon>201511201656050_correcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511201719050_corr.resx">
+      <DependentUpon>201511201719050_corr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

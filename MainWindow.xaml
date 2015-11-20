@@ -10,10 +10,10 @@
         <Image Margin="343,112,10,10" Source="provedor.jpg" Stretch="Fill"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="30,36,0,0" VerticalAlignment="Top" Width="100"/>
         <Image Margin="0,36,367,116" Source="CiAMm0cNManKWBC5V3m8ZTl72eJkfbmt4t8yenImKBXEejxNn4ZJNZ2ss5Ku7Cxt.jpg" Stretch="Fill"/>
-        <TextBox x:Name="txtnom" HorizontalAlignment="Left" Height="23" Margin="211,51,0,0" TextWrapping="Wrap" Text="usuario" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtnom" HorizontalAlignment="Left" Height="23" Margin="211,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Usuario:" HorizontalAlignment="Left" Margin="144,51,0,0" VerticalAlignment="Top"/>
         <Label Content="Contrseña:" HorizontalAlignment="Left" Margin="135,82,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtCo" HorizontalAlignment="Left" Height="23" Margin="211,82,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCo" HorizontalAlignment="Left" Height="23" Margin="211,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
